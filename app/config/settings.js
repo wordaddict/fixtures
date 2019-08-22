@@ -8,7 +8,7 @@ const config = {
   secret: 'weMove',
   admin_check: 'macandcheese',
   api_server: {
-    port: process.env.API_PORT,
+    port: process.env.PORT,
   },
   logging: {
     shouldLogToFile: process.env.ENABLE_FILE_LOGGING,
